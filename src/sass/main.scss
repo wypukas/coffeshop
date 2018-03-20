@@ -1,12 +1,16 @@
-body{
-  background: orange;
-  font-size: 35px;
-}
-.container{
-  background: #000;
-  user-select: none;
-    .box{
-      width: 40%;
-      background: #000;
-    }
-}
+@import "base/reset";
+@import "base/fonts";
+
+//utils
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/media";
+@import "utils/general";
+
+// components
+@import "components/footer";
+@import "components/menu";
+
+// pages
+@import "pages/index";
+@import "pages/about";

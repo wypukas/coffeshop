@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background: $theme-color;
+}
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.container{
+  max-width: 1100px;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+  color: inherit; // paveldetu nuo tevinio elemento
+}
