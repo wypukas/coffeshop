@@ -1,0 +1,12 @@
+body{
+  background: orange;
+  font-size: 35px;
+}
+.container{
+  background: #000;
+  user-select: none;
+    .box{
+      width: 40%;
+      background: #000;
+    }
+}
